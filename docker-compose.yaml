@@ -25,7 +25,7 @@ services:
     volumes:
     - redis:/data
   user:
-    image: ajay60/user:v1
+    image: ajay630/user:v1
     container_name: user
     depends_on:
     - redis
